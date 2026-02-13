@@ -15,7 +15,7 @@
             font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
             overflow-y: scroll;
             scroll-snap-type: y mandatory;
-            scrollbar-width: none; /* Приховуємо скроллбар для чистоти */
+            scrollbar-width: none; 
         }
         
         body::-webkit-scrollbar { display: none; }
@@ -72,7 +72,7 @@
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             text-transform: uppercase;
-            word-spacing: 100vw; /* Змушує кожне слово бути з нового рядка на вузьких екранах */
+            word-spacing: 100vw; 
         }
 
         .scroll-hint {
@@ -85,7 +85,7 @@
             animation: bounce 2s infinite;
         }
 
-        /* Адаптація для великих екранів */
+     
         @media (min-width: 768px) {
             .text-fade { font-size: 1.8rem; }
             .main-title { font-size: 4rem; word-spacing: normal; }
